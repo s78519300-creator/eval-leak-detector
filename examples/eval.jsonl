@@ -1,0 +1,6 @@
+{"id": "q1", "question": "A train leaves the station at 9 am travelling at 60 km per hour. A second train leaves the same station at 10 am travelling at 80 km per hour on the same track. At what time does the second train catch up with the first?"}
+{"id": "q2", "question": "Write a function that returns the length of the longest substring without repeating characters in a given string, and explain its time complexity."}
+{"id": "q3", "question": "A farmer has 17 sheep and all but 9 run away. How many sheep does the farmer have left, and why do many people get this wrong?"}
+{"id": "q4", "question": "Explain how a B-tree index speeds up range queries in a relational database and when a hash index would be a better choice."}
+{"id": "q5", "question": "Given a list of meeting time intervals, determine the minimum number of conference rooms required so that no two meetings overlap in the same room."}
+{"id": "q6", "question": "What is the capital of France?"}
