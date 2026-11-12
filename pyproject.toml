@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eval-leak-detector"
+version = "0.1.0"
+description = "Find benchmark items that leaked into a training or prompt corpus: n-gram overlap plus MinHash near-duplicate search."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Shalu Kumari" }]
+requires-python = ">=3.9"
+keywords = ["llm", "evaluation", "benchmark", "contamination", "data-leakage", "minhash"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+eval-leak-detector = "eval_leak_detector.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
